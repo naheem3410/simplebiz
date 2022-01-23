@@ -1,0 +1,39 @@
+@media screen and (min-device-width: 481px){
+    .feature-image{
+        max-width: 100%;
+        height: auto;
+        margin-top: -20px;
+    }
+    
+    .flow-over{
+        background-color: rgb(21,20,26,0.5);
+        position: absolute;
+        top: 37%;
+        left: 37%;
+        right: 37%;
+        border: 2px solid #765A5C;
+    }
+}
+@media screen and (max-device-width: 480px){
+    .feature-image{
+        max-width: 100%;
+        height: auto;
+        margin-top: -20px;
+    }
+    
+    .flow-over{
+        display: none;
+    }
+}
+
+@media screen and (max-device-width: 1024px){
+    .feature-image{
+        max-width: 100%;
+        height: auto;
+        margin-top: -20px;
+    }
+    
+    .flow-over{
+        display: none;
+    }
+}
